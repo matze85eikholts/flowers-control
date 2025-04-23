@@ -8,6 +8,9 @@ public class FlowersControlApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(FlowersControlApplication.class, args);
+		
+		System.out.println("here I'm writing my code about flowers inventory");
+
 	}
 
 }
