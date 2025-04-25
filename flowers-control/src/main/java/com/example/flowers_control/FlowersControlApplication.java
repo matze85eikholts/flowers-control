@@ -10,7 +10,7 @@ public class FlowersControlApplication {
 		SpringApplication.run(FlowersControlApplication.class, args);
 
 		System.out.println("here I'm writing my code about flowers inventory");
-
+        System.out.println("Another greeting to you, guys!!!!");
 	}
 
 }
