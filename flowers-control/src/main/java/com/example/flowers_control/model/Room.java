@@ -12,6 +12,7 @@ public class Room {
     @Column(nullable = false, unique = true)
     private String name;
 
+
     @OneToMany(mappedBy = "room", cascade = CascadeType.ALL, orphanRemoval = true)
     private Set<RoomFlower> flowers;
 }
